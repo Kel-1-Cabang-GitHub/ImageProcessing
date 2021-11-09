@@ -1,4 +1,4 @@
-# Basic Operation Of Image Pro
+# Image Processing
 
 ### Summary
 This is task from our college. We have to make a simple image processing program using Java. The program should be able to perform the following operations:
