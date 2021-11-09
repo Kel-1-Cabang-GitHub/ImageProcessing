@@ -1,0 +1,20 @@
+### Java ###
+# Compiled Class Files #
+*.class
+
+# Package Files #
+*.jar
+*.zip
+*.tar.gz
+*.rar
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+### Misc ###
+temp/*
