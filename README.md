@@ -1,7 +1,7 @@
 # Image Processing
 
 ### Summary
-This is task from our college. We have to make a simple image processing program using Java. The program should be able to perform the following operations:
+This is a task from our college. We have to make a simple image processing program using Java. The program should be able to perform the following operations:
 1. Grayscale
 2. Thresholding
 3. Image Brightening
@@ -17,7 +17,7 @@ This is task from our college. We have to make a simple image processing program
 1. **Grayscale**: Transform colored image into gray
 2. **Thresholding**: Separate the image into two parts, one is the object and the othr is the background
 3. **Image Brightening**: Change the brightness of the image
-4. **Arithnetic Operation**:
+4. **Arithmetic Operations**:
    - Add
    - Subtract
    - Multiply
