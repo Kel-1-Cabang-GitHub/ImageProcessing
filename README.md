@@ -17,8 +17,8 @@ This is a task from our college. We have to make a simple image processing progr
 1. **Grayscale**: Transform colored image into gray
 2. **Thresholding**: Separate the image into two parts, one is the object and the othr is the background
 3. **Image Brightening**: Change the brightness of the image
-4. **Arithmetic Operations**:
-   - Add
+4. **Arithmetic Operations**: using arithmetic operations for each pixels from two image you want to
+   - Add 
    - Subtract
    - Multiply
    - Divide
