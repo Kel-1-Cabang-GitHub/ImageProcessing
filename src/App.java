@@ -197,8 +197,13 @@ public class App {
 
                         imagePath = IOImage.findImage(input);
                         image = IOImage.readImage(image, imagePath);
-                        BufferedImage temp = IOImage.makeBlack(IOImage.readImage(image, imagePath));
-
+                        BufferedImage temp = null;
+                        if(!geometryOperation.equals("zoom")){
+                            temp = IOImage.makeBlack(IOImage.readImage(image, imagePath));
+                        }else{
+                            temp = new BufferedImage(image.getWidth()*2,image.getHeight()*2,BufferedImage.TYPE_INT_RGB);
+                            temp = IOImage.makeBlack(temp);
+                        }
                         try {
                             BufferedImage geometryImage = ImageProcessing.geometryOperation(image, temp, geometryOperation);
                             IOImage.writeImage(geometryImage, "img\\geometry\\" + geometryOperation + "\\geometry_"

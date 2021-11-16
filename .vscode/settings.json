@@ -3,7 +3,8 @@
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
-        "d:\\Programming Related\\Java Libraries\\opencv-454.jar"
+        "d:\\Programming Related\\Java Libraries\\opencv-454.jar",
+        "c:\\javalib\\opencv-454.jar"
     ],
 
 }
