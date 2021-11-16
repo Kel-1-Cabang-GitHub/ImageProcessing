@@ -1,5 +1,12 @@
 # Image Processing
-### OpenCV Required!!!
+
+### How To Run
+1. Minimal `Java 11` installed, check in your terminal/command prompt
+   ```
+   java --version
+   ```
+2. Latest `opencv` library installed (https://opencv.org/releases/)
+
 ### Summary
 This is a task from our college. We have to make a simple image processing program using Java. The program should be able to perform the following operations:
 1. Grayscale
