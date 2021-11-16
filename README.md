@@ -1,7 +1,7 @@
 # Image Processing
 
 ### How To Run
-1. Minimal `Java 11` installed, check in your terminal/command prompt
+1. Minimum `Java 11` installed, check in your terminal/command prompt
    ```
    java --version
    ```
