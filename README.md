@@ -22,18 +22,18 @@ This is a task from our college. We have to make a simple image processing progr
    - Subtract
    - Multiply
    - Divide
-5. **Boolean Operations**
-   - And
-   - Not
-   - Or
-   - Xor
-6. **Geometry Operations**
+5. **Boolean Operations**: using boolean operation for each pixels from two images you want to (except for NOT)
+   - AND
+   - NOT
+   - OR
+   - XOR
+6. **Geometry Operations**: using geometry operations you wanty to
    - Flip
    - Mirror
    - Rotate
    - Zoom
    - Translate
-7. **Edge Detection**
+7. **Edge Detection**: using edge detection you want to
    - Sobel
    - Gaussian
    - Canny
