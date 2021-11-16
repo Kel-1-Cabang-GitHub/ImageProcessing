@@ -61,10 +61,10 @@ public class GeometryOperation {
                 Color c = new Color(image.getRGB(i, j));
                 int newX = scaleFactor * i;
                 int newY = scaleFactor * j;
-                if (newX < width && newX >= 0 && newY < height && newY >= 0) {
+                if (newX < temp.getWidth() && newX >= 0 && newY < temp.getHeight() && newY >= 0) {
                     for (int k = newX; k < (newX + scaleFactor); k++) {
                         for (int l = newY; l < (newY + scaleFactor); l++) {
-                            if (k < width && k >= 0 && l < height && l >= 0) {
+                            if (k < temp.getWidth() && k >= 0 && l < temp.getHeight() && l >= 0) {
                                 temp.setRGB(k, l, c.getRGB());
                             }
                         }
